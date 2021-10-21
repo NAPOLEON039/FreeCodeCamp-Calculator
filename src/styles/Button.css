@@ -1,0 +1,24 @@
+:root {
+    --bg-color: rgb(65, 65, 65);
+}
+
+.btn {
+    width: 70px;
+    height: 70px;
+    margin-left: 15px;
+
+    cursor: pointer;
+
+    font-family: sans-serif;
+    font-size: 1.4em;
+    text-align: center;
+    color: white;
+    background-color: var(--bg-color);
+    
+    border: 0.01em solid var(--bg-color);
+    border-radius: 0.25em;
+}
+
+#zero, #equals {
+    width: 155px;
+}

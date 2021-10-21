@@ -1,0 +1,29 @@
+.display-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+
+    cursor: default;
+}
+
+.display-container input {
+    width: 10.5em;
+    height: 1.8em;
+    text-align: right;
+    margin-top: 15px;
+    padding: 0 5px;
+
+    cursor: default;
+    font-size: 35px;
+    outline: none;
+    border: none;
+    border-radius: 0.20em;
+}
+
+.display-container input:hover {
+    cursor: default;
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
